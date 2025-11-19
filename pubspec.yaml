@@ -1,0 +1,41 @@
+name: chicstore
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2 # Pastikan Dart SDK Anda mendukung versi ini
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase Dependencies (Kompatibel & Stabil) ---
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+
+  # --- State Management & Utilities ---
+  provider: ^6.0.5 # State Management
+  uuid: ^4.2.1 # Untuk ID unik pada Alamat
+  intl: ^0.20.2 # Untuk format tanggal/mata uang
+
+  # --- UI & Input Dependencies ---
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.1.1
+  image_picker: ^1.0.4 # Untuk Admin Form
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0 # Menggunakan versi 5.0.0
+
+# --- KONFIGURASI FLUTTER UTAMA ---
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/icons/
+  - assets/images/

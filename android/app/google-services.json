@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742072048759",
+    "project_id": "chicstore-app",
+    "storage_bucket": "chicstore-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742072048759:android:b3e5eeedb7838cd8203a72",
+        "android_client_info": {
+          "package_name": "com.example.chicstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwSvLftm6YpJzPTCAWYdhjqXp8Adomm0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
